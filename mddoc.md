@@ -59,7 +59,7 @@ HOL 7 유튜브 링크
 [HOL 8. Upgrade Multitenant DB](#hol-8-upgrade-multitenant-db)  
 
 HOL 8 유튜브 링크  
-[![HOL 8  유튜브 링크](http://img.youtube.com/vi/R7QZqRMlVY8&t=2s/0.jpg)](https://youtu.be/R7QZqRMlVY8&t=2s)  
+[![HOL 8  유튜브 링크](http://img.youtube.com/vi/R7QZqRMlVY8/0.jpg)](https://youtu.be/R7QZqRMlVY8)  
 
 [HOL 9. AutoUpgrade Ⅱ](#hol-9-autoupgrade-ⅱ)  
 
