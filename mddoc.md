@@ -17,14 +17,14 @@ Ver 2.0
 ## 목차  
 [HOL 1. AutoUpgradeⅠ](##hol-1-autoupgradeⅰ)   
 [HOL 2. AWR Diff Report](#hol-2-awr-diff-report)  
-[HOL 3. SQL Perfomance Analyzer(SPA)](#hol-3-sql-performance-analyzer(spa))  
-[HOL 4. SQL Plan Management(SPM)]()  
-[HOL 5. SQL Tuning Advisor]()    
-[HOL 6. Plugin UPGR into CDB2]()  
-[HOL 7. Migrate/Upgrade FTEX to PDB2]()  
-[HOL 8. Upgrade Multitenant DB]()  
-[HOL 9. AutoUpgrade Ⅱ]()  
-[Appendix]()   
+[HOL 3. SQL Perfomance Analyzer(SPA)](#hol-3-sql-perfomance-analyzerspa)  
+[HOL 4. SQL Plan Management(SPM)](#hol-4-sql-plan-managementspm)  
+[HOL 5. SQL Tuning Advisor](#hol-5-sql-tuning-advisor)    
+[HOL 6. Plugin UPGR into CDB2](#hol-6-plugin-upgr-into-cdb2)  
+[HOL 7. Migrate/Upgrade FTEX to PDB2](#hol-7-migrateupgrade-ftex-to-pdb2)  
+[HOL 8. Upgrade Multitenant DB](#hol-8-upgrade-multitenant-db)  
+[HOL 9. AutoUpgrade Ⅱ](#hol-9-autoupgrade-ⅱ)  
+[Appendix](#appendix)   
   
     
 
@@ -1428,7 +1428,7 @@ Oracle 계정을 CDB2 DB 환경으로 전환 후, CDB2에 접속
 > SQL> select message from pdb_plug_in_violations where type like
 > '%ERR%' and status \<\> 'RESOLVED';  
 >   
-> MESSAGE  
+>   MESSAGE  
 > ---------------------------------------------------------------------  
 > PDB's version does not match CDB's version: PDB's version 12.2.0.1.0.
 > CDB's version 19.0.0.0.0.  
