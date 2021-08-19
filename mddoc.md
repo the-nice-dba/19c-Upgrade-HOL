@@ -116,77 +116,7 @@ Ver 2.0
 
 [\[3\] 19c Upgrade HOL VBox 외부접속 환경설정 방법 69](#_Toc74314940)
 
-제목1 : Ctrl + 1
-
-제목2 : Ctrl + 2 (제목2위Bar)
-
-제목2 : Ctrl + Shift + 2 (제목2 Title)
-
-제목3 : Ctrl + 3 (밑줄)
-
-제목4 : Ctrl + 4 (네모 점)
-
-제목5 : Ctrl + 5 (동그라미 점)
-
-제목6 : Ctrl + 6 (>)
-
-제목7 : Ctrl + 7 (결론부분 제목. 네모)
-
-본문1 : Alt + 1
-
-본문2 : Alt + 2
-
-본문2 : Alt + Shift + 2 (파란색 결론설명)
-
-본문3 : Alt + 3
-
-본문4 : Alt + 4
-
-본문5 : Alt + 5 (작은글)
-
-본문6 : Alt + 6 (작은글, 회색바탕)
-
-본문-글꼴색만 바다색으로 : Alt + 8
-
-본문-숨김글 : Alt + 9 (Word에서만 보임)
-
-본문SQL : Alt + 0 ( Full Line Small Fixed Font)
-
-![](./media/image2.png)![](./media/image2.png)제목1 : Ctrl + 1
-
-제목2 : Ctrl + 2 (제목2위Bar)
-
-제목2 : Ctrl + Shift + 2 (제목2 Title)
-
-제목3 : Ctrl + 3 (밑줄)
-
-제목4 : Ctrl + 4 (네모 점)
-
-제목5 : Ctrl + 5 (동그라미 점)
-
-제목6 : Ctrl + 6 (>)
-
-제목7 : Ctrl + 7 (결론부분 제목. 네모)
-
-본문1 : Alt + 1
-
-본문2 : Alt + 2
-
-본문2 : Alt + Shift + 2 (파란색 결론설명)
-
-본문3 : Alt + 3
-
-본문4 : Alt + 4
-
-본문5 : Alt + 5 (작은글)
-
-본문6 : Alt + 6 (작은글, 회색바탕)
-
-본문-글꼴색만 바다색으로 : Alt + 8
-
-본문-숨김글 : Alt + 9 (Word에서만 보임)
-
-본문SQL : Alt + 0 ( Full Line Small Fixed Font)
+ 
 
 ## HOL 1. AutoUpgradeⅠ
 
