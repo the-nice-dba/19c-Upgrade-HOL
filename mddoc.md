@@ -1235,7 +1235,7 @@ Transportable Database 마이그레이션 대상이 될 PDB를, 19c Mutitenant D
 >
 > $ sqlplus / as sysdba
 
-. c![](./media/image74.png)
+![](./media/image74.png)
 
 2.  PDB 생성
 
