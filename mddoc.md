@@ -95,8 +95,8 @@ AutoUpgrade Utility를 사용해 손쉽게 Upgrade 할 수 있는 방법을 실�
 있습니다. 또한, 이어지는 다음 실습에서 19c로의 DB Upgrade 후 SQL 성능과
 관련한 다양한 성능비교 방법과 SQL 성능 안정화 방법을 습득할 수 있습니다.
 
-<span id="_Toc74314893" class="anchor"></span>\[1\] Application Workload
-생성
+**<span id="_Toc74314893" class="anchor"></span>\[1\] Application Workload
+생성** 
 
 19c로의 AutoUpgrade를 실습하기 전에 우선, Upgrade 전과 후의 SQL 및 DB
 성능을 비교하기 위한 가상의 Application Workload를 HammerDB 툴로 11gR2
@@ -167,11 +167,11 @@ DB에 생성하고, 관련된 성능 데이터를 수집합니다.
 -   14번과 같이 HammerDB에 의해 부하가 발생되는 것이 확인되면, AWR 정보
     저장을 위해 Snapshot을 한 번 생성합니다.
 
-1.  ‘New Tab’으로 새로운 터미널 창 오픈
+(1)  ‘New Tab’으로 새로운 터미널 창 오픈
 
 > ![](./media/image16.png)
 
-2.  11g DB 환경으로 전환하고, Snapshot 생성 후 SQL Plus 종료
+(2)  11g DB 환경으로 전환하고, Snapshot 생성 후 SQL Plus 종료
 
 > $ . upgr
 >
@@ -203,7 +203,7 @@ Snaphost 생성 및 **Snapshot 번호 확인**
 
 20. SQL Plus 종료
 
-<span id="_Toc74314894" class="anchor"></span>\[2\] AutoUpgrade
+**<span id="_Toc74314894" class="anchor"></span>\[2\] AutoUpgrade**
 
 Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR DB를
 19c UPGR DB로 업그레이드 시킵니다. AutoUpgrade 유틸리티는 VBox
@@ -311,11 +311,11 @@ Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR 
 
 > upg> **logs** Log 위치 확인
 
-1.  새로운 터미널 창 오픈
+(1)  새로운 터미널 창 오픈
 
 > ![](./media/image16.png)
 
-2.  Preupgrade Check 내용 확인
+(2)  Preupgrade Check 내용 확인
 
 > $ cd /home/oracle/logs/UPGR/잡번호/prechecks
 >
@@ -324,7 +324,7 @@ Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR 
 잠시 기다리면 Firefox 브라우저가 실행되고 관련 내용을 확인 할 수
 있습니다.
 
-3.  Upgrade 진행 상태 확인
+(3)  Upgrade 진행 상태 확인
 
 > $ cd ../dbupgrade
 >
@@ -396,7 +396,7 @@ Oracle Report가 AWR Diff입니다.
 
 6.  AWR diff Report를 분석하여 업그레이드 전후 성능 비교
 
-<span id="_Toc74314896" class="anchor"></span>\[1\] 실습환경 준비
+**<span id="_Toc74314896" class="anchor"></span>\[1\] 실습환경 준비**
 
 우선 19c로 접속하여 실습을 준비합니다.
 
@@ -406,8 +406,8 @@ Oracle Report가 AWR Diff입니다.
 > $ cd /home/oracle/scripts  
 > $ sqlplus / as sysdba
 
-<span id="_Toc74314897" class="anchor"></span>\[2\] HammerDB 실행전 AWR
-Snapshot 생성
+**<span id="_Toc74314897" class="anchor"></span>\[2\] HammerDB 실행전 AWR
+Snapshot 생성**
 
 이번 단계에서는 부하 생성전에 AWR Snapshot을 생성합니다.
 
@@ -419,7 +419,7 @@ Snapshot 생성
 생성할 때 사용할 수 있도록 **생성된 Snap id를 메모장에 기록**해 두시기
 바랍니다.
 
-<span id="_Toc74314898" class="anchor"></span>\[3\] HammerDB로 부하 생성
+**<span id="_Toc74314898" class="anchor"></span>\[3\] HammerDB로 부하 생성**
 
 이번 단계에서는 업그레이드 전후 DB 성능을 비교하기위해 업그레이드 이전
 단계에서 이미 실행한 HammerDB를 다시 한 번 더 실행합니다.
@@ -470,12 +470,12 @@ Snapshot 생성
 ![](./media/image17.jpeg)
 
 -   위 그림처럼 부하 생성 작업의 완료는 그래프 아래부분의 Status에
-    > 초록색 체크표시가 3개 생기고, 우측상단에 COMPLETE 메시지가
-    > 출력되는 것으로 확인할 수 있습니다.  
-    > (시간은 2\~3분 정도 걸림)
+     초록색 체크표시가 3개 생기고, 우측상단에 COMPLETE 메시지가
+     출력되는 것으로 확인할 수 있습니다.  
+     (시간은 2\~3분 정도 걸림)
 
-<span id="_Toc74314899" class="anchor"></span>\[4\] HammerDB 종료 후 AWR
-Snapshot 생성
+**<span id="_Toc74314899" class="anchor"></span>\[4\] HammerDB 종료 후 AWR
+Snapshot 생성**
 
 이번 단계에서는 SQL 실행이 모두 끝난 후 AWR의 snap id를 생성합니다.
 
@@ -489,7 +489,7 @@ Snapshot 생성
 
 방금 생성한 두번째 Snapshot id를 **메모장에 기록**해 둡니다.
 
-<span id="_Toc74314900" class="anchor"></span>\[5\] AWR Diff Report 생성
+**<span id="_Toc74314900" class="anchor"></span>\[5\] AWR Diff Report 생성**
 
 1.  AWR Diff Report를 생성하는 스크립트 실행
 
@@ -539,8 +539,8 @@ Snapshot 생성
 
 > firefox /home/oracle/scripts/awrdiff\*.html &
 
-<span id="_Toc74314901" class="anchor"></span>\[6\] AWR diff Report를
-분석하여 업그레이드 전후 성능 비교
+**<span id="_Toc74314901" class="anchor"></span>\[6\] AWR diff Report를
+분석하여 업그레이드 전후 성능 비교**
 
 AWR Diff 보고서의 Load Profile, Top Timed Events, Top SQL 등을 분석하여
 업그레이이드 전후의 DB 성능을 비교합니다.
@@ -598,7 +598,7 @@ Tuning Set 2개를 사용합니다.
 
 5.  옵티마이저 파라미터를 11g로 수정하여 SPA 다시 실행
 
-<span id="_Toc74314903" class="anchor"></span>\[1\] 실습환경 준비
+**<span id="_Toc74314903" class="anchor"></span>\[1\] 실습환경 준비**
 
 먼저 단계에서는 19c로 접속하여 실습을 준비합니다.
 
@@ -608,8 +608,8 @@ Tuning Set 2개를 사용합니다.
 > $ cd /home/oracle/scripts  
 > $ sqlplus / as sysdba
 
-<span id="_Toc74314904" class="anchor"></span>\[2\] 이미 생성된 SQL
-Tuning Set 확인
+**<span id="_Toc74314904" class="anchor"></span>\[2\] 이미 생성된 SQL
+Tuning Set 확인**
 
 이번 단계에서는 SPA 리포트에서 사용될 SQL Tuning Set을 확인합니다.
 
@@ -618,7 +618,7 @@ Tuning Set 확인
 > select count(\*), sqlset_name from dba_sqlset_statements group by
 > sqlset_name order by 2;
 
-<span id="_Toc74314905" class="anchor"></span>\[3\] SPA 실행
+**<span id="_Toc74314905" class="anchor"></span>\[3\] SPA 실행**
 
 이번 단계에서 실행하는 SPA 명령어에는 아래와 같은 작업내용이 포함됩니다.
 
@@ -629,8 +629,8 @@ Tuning Set 확인
 -   업그레이드 전후의 SQL 성능정보를 비교합니다.
 
 -   SPA 보고서를 출력합니다. 이번 실습에서는 CPU Time과 Elapsed Time
-    > 메트릭을 기준으로 보고서가 생성됩니다. 아래 URL에 접속하면 더
-    > 다양한 SPA관련 메트릭들을 확인할 수 있습니다.
+     메트릭을 기준으로 보고서가 생성됩니다. 아래 URL에 접속하면 더
+     다양한 SPA관련 메트릭들을 확인할 수 있습니다.
 
 > https://mikedietrichde.com/2015/09/09/different-metrics-for-spa-sql-performance-analyzer/
 
@@ -658,7 +658,7 @@ Tuning Set 확인
 >
 > $ firefox compare_spa\_\* &
 
-<span id="_Toc74314906" class="anchor"></span>\[4\] SPA Report 분석
+**<span id="_Toc74314906" class="anchor"></span>\[4\] SPA Report 분석**
 
 앞 단계에서 두가지(CPU_TIME, Elapsed TIME) 형태의 SPA Report를
 생성했습니다. 각각의 보고서에는 SQL의 성능이 전체적으로 얼마나
@@ -675,8 +675,8 @@ Tuning Set 확인
 
 ![](./media/image41.jpeg)
 
-<span id="_Toc74314907" class="anchor"></span>\[5\] 옵티마이저를 11g로
-수정하여 SPA 재실행
+**<span id="_Toc74314907" class="anchor"></span>\[5\] 옵티마이저를 11g로
+수정하여 SPA 재실행**
 
 이번 단계에서는 19c DB의 옵티마이저 파라미터를 버전 11.2.0.4로 수정해,
 19c가 아닌 11g 옵티마이저 기능을 사용하도록 변경시켜 SPA를 실행합니다.
@@ -707,16 +707,16 @@ Tuning Set 확인
 
 ![](./media/image42.jpeg)
 
-> 위와 같이, 기본적으로는 19c Database 환경을 사용하게 됨으로 여전히 SQL
-> 성능개선은 있지만, 실행계획은 11g Database 환경에서 사용하던 것을
-> 그대로 사용하고 있습니다. 따라서 19c 옵티마이저에 최저화된 Plan에 따른
-> 더 나은 SQL 성능 향상은 없습니다.
->
-> 이번 실습에서 확인한 것과 같이 사용자는 Oracle SPA를 사용하여, Upgrade
-> 전/후 운영 SQL의 성능을 세밀하게 분석할 수 있고, 이를 통해 사전에
-> 성능저하가 발생할 수 있는 SQL을 찾아내 보완할 수 있으므로, 실제
-> Upgrade 이후 악성 SQL의 발생이나 예기치 못한 SQL 성능저하 문제를 미리
-> 예방할 수 있습니다.
+ 위와 같이, 기본적으로는 19c Database 환경을 사용하게 됨으로 여전히 SQL
+ 성능개선은 있지만, 실행계획은 11g Database 환경에서 사용하던 것을
+ 그대로 사용하고 있습니다. 따라서 19c 옵티마이저에 최저화된 Plan에 따른
+ 더 나은 SQL 성능 향상은 없습니다.
+
+ 이번 실습에서 확인한 것과 같이 사용자는 Oracle SPA를 사용하여, Upgrade
+ 전/후 운영 SQL의 성능을 세밀하게 분석할 수 있고, 이를 통해 사전에
+ 성능저하가 발생할 수 있는 SQL을 찾아내 보완할 수 있으므로, 실제
+ Upgrade 이후 악성 SQL의 발생이나 예기치 못한 SQL 성능저하 문제를 미리
+ 예방할 수 있습니다.
 
 ---
 
@@ -737,7 +737,7 @@ Tuning Set 확인
 
 4.  SPA 실행 및 Report 분석
 
-<span id="_Toc74314909" class="anchor"></span>\[1\] 실습환경 준비
+**<span id="_Toc74314909" class="anchor"></span>\[1\] 실습환경 준비**
 
 19c DB 환경으로 접속하여 실습을 준비합니다.
 
@@ -747,8 +747,8 @@ Tuning Set 확인
 > $ cd /home/oracle/scripts  
 > $ sqlplus / as sysdba
 
-<span id="_Toc74314910" class="anchor"></span>\[2\] SQL PLAN BASELINE
-생성 및 개별 SQL PLAN 고정
+**<span id="_Toc74314910" class="anchor"></span>\[2\] SQL PLAN BASELINE
+생성 및 개별 SQL PLAN 고정**
 
 이번 단계에서는 업그레이드 전후에 실행계획이 달라진 특정 SQL에 대해 SQL
 Plan Baseline을 생성하여 기존 Plan이 변경되지 않도록 작업합니다.
@@ -774,10 +774,10 @@ Plan Baseline을 생성하여 기존 Plan이 변경되지 않도록 작업합니
 ![](./media/image45.png)
 
 -   ENABLED = Y 이고 ACCEPTED = Y 임으로 앞으로 해당 SQL의 PLAN은
-    > 변경되지 않고 고정됩니다.
+     변경되지 않고 고정됩니다.
 
-<span id="_Toc74314911" class="anchor"></span>\[3\] SPM으로 모든 SQL의
-실행계획을 11g로 고정
+**<span id="_Toc74314911" class="anchor"></span>\[3\] SPM으로 모든 SQL의
+실행계획을 11g로 고정**
 
 이번 단계에서는 SQL 튜닝 세트 STS_CaptureCursorCache의 모든 SQL을 11g
 DB에서 사용하던 Plan으로 고정시킵니다. 19c로의 업그레이드 성능개선
@@ -797,8 +797,8 @@ DB에서 사용하던 Plan으로 고정시킵니다. 19c로의 업그레이드 �
 
 -   모든 SQL의 PLAN이 업그레이드 이전으로 고정되었습니다.
 
-<span id="_Toc74314912" class="anchor"></span>\[4\] SPA 실행 및 Report
-분석
+**<span id="_Toc74314912" class="anchor"></span>\[4\] SPA 실행 및 Report
+분석**
 
 > 이제 고정된 PLAN으로 SPA를 실행하고 보고서를 출력하여 분석합니다.
 
@@ -836,7 +836,7 @@ DB에서 사용하던 Plan으로 고정시킵니다. 19c로의 업그레이드 �
 > ![](./media/image48.png)
 
 -   이런 경우 위의 5개 SQL에 대해서만 SQL PLAN BASELINE을 생성하면
-    > 됩니다.
+     됩니다.
 
 ---
 
@@ -860,7 +860,7 @@ SQL Tuning Advisor 기능을 이용하여 19c에서 느려진 SQL 성능을 손�
 
 4.  SPA를 실행 및 결과 Report 분석
 
-<span id="_Toc74314914" class="anchor"></span>\[1\] 실습환경 준비
+**<span id="_Toc74314914" class="anchor"></span>\[1\] 실습환경 준비**
 
 지금까지 실습했던 VBox를 종료하고 SQL Plan Base Line이 없는 깨끗한
 환경에서 실습하기 위해 앞서 저장한 스냅샷 ‘End of AWR Diff Lab’을
@@ -885,13 +885,13 @@ VBox 서버가 구동되었으면 터미널을 열고 19c DB 환경으로 전환
 > $ cd /home/oracle/scripts  
 > $ sqlplus / as sysdba
 
-<span id="_Toc74314915" class="anchor"></span>\[2\] SQL Tuning Task 생성
-및 시뮬레이션
+**<span id="_Toc74314915" class="anchor"></span>\[2\] SQL Tuning Task 생성
+및 시뮬레이션**
 
 이번 실습에는 아래와 같은 작업이 포함됩니다.
 
 -   이전 실습에서 생성된 SQL Tunig Set ( STS_CaptureCursorCache )를
-    > 이용하여 SQL Tuning Task를 만듭니다.
+     이용하여 SQL Tuning Task를 만듭니다.
 
 -   SQL Tunig Advisor가 Task를 실행시키고 SQL을 Simulation 합니다.
 
@@ -928,7 +928,7 @@ BASELINE을 생성할 것을 권고하고 있습니다. 하지만 위에서 앞�
 
 ![](./media/image54.jpeg)
 
-<span id="_Toc74314916" class="anchor"></span>\[3\] 성능개선 권고안 실행
+**<span id="_Toc74314916" class="anchor"></span>\[3\] 성능개선 권고안 실행**
 
 1.  바탕화면의 SQL Developer 실행
 
@@ -951,8 +951,8 @@ BASELINE을 생성할 것을 권고하고 있습니다. 하지만 위에서 앞�
 
 실행이 완료되면 위의 화면처럼 Script ouput 창에 실행결과가 나타납니다.
 
-<span id="_Toc74314917" class="anchor"></span>\[4\] SPA 실행 및 결과
-Report 분석
+**<span id="_Toc74314917" class="anchor"></span>\[4\] SPA 실행 및 결과
+Report 분석**
 
 이번 단계에서는 앞서 실행한 성능개선 권고안에 대해, SPA를 실행하여 SQL의
 성능이 어떻게 변경되었는지 확인합니다.
@@ -973,11 +973,11 @@ Report 분석
 
 ![](./media/image59.jpeg)
 
-> SQL Tuning Advisor가 항상 옿은 것은 아닙니다. 대부분의 경우 성능이
-> 개선되지만 가끔 위의 화면 처럼 성능이 저하되는 경우도 있음으로, 결과에
-> 대해서는 DBA의 추가적인 검증과 분석이 필요합니다.
->
-> 이상으로 SQL Tuning Advisor의 실습을 마치겠습니다.
+ SQL Tuning Advisor가 항상 옿은 것은 아닙니다. 대부분의 경우 성능이
+ 개선되지만 가끔 위의 화면 처럼 성능이 저하되는 경우도 있음으로, 결과에
+ 대해서는 DBA의 추가적인 검증과 분석이 필요합니다.
+
+ 이상으로 SQL Tuning Advisor의 실습을 마치겠습니다.
 
 ---
 
@@ -1005,7 +1005,7 @@ DB인 ‘UPGR’ 11g DB를 우선 타겟 CDB와 같은 19c DB버전으로 먼저
 
 3\. Plugin 진행
 
-<span id="_Toc74314919" class="anchor"></span>\[1\] Non-CDB UPGR 준비
+**<span id="_Toc74314919" class="anchor"></span>\[1\] Non-CDB UPGR 준비**
 
 1.  TimeZone을 한국시간으로 맞추려면 아래 환경변수를 적용합니다.
 
@@ -1048,7 +1048,7 @@ DB인 ‘UPGR’ 11g DB를 우선 타겟 CDB와 같은 19c DB버전으로 먼저
 
 ![](./media/image64.png)
 
-<span id="_Toc74314920" class="anchor"></span>\[2\] Compatibility 체크
+**<span id="_Toc74314920" class="anchor"></span>\[2\] Compatibility 체크**
 
 Plugin 과정에서 발생가능한 잠재적 이슈를 사전에 확인하기 위해
 Compatibility 체크를 수행 합니다. 필수 과정은 아니지만, 권고사항입니다.
@@ -1081,7 +1081,7 @@ Compatibility 체크를 수행 합니다. 필수 과정은 아니지만, 권고�
 
 -   본 실습에서는 YES 결과가 리턴됩니다.
 
-<span id="_Toc74314921" class="anchor"></span>\[3\] Plugin 진행
+**<span id="_Toc74314921" class="anchor"></span>\[3\] Plugin 진행**
 
 Plugin 되는 ‘UPGR’ 데이터베이스는 ‘PDB1’으로 전환됩니다. 실제 운영
 환경에서는 작업전 미리 백업본을 준비하고, Plugin을 위해 데이터파일 카피
@@ -1121,9 +1121,9 @@ Plugin 되는 ‘UPGR’ 데이터베이스는 ‘PDB1’으로 전환됩니다.
 ![](./media/image67.png)
 
 -   위의 SQL을 실행하면 ERROR와 ISSUE들을 확인할 수 있는데, ISSUE들은
-    > 일반적인 Known ISSUE 입니다. ERROR는 반드시 해결해야 하는
-    > 사항이며, 다음과 같은 ERROR가 있음을 확인 할 수 있고, 이 문제는
-    > 이어지는 다음 실습 단계를 통해 해결할 수 있습니다.
+     일반적인 Known ISSUE 입니다. ERROR는 반드시 해결해야 하는
+     사항이며, 다음과 같은 ERROR가 있음을 확인 할 수 있고, 이 문제는
+     이어지는 다음 실습 단계를 통해 해결할 수 있습니다.
 
 ![](./media/image68.png)
 
@@ -1134,8 +1134,8 @@ Plugin 되는 ‘UPGR’ 데이터베이스는 ‘PDB1’으로 전환됩니다.
 > SQL> @?/rdbms/admin/noncdb_to_pdb.sql
 
 -   noncdb_to_pdb.sql은 실습 PC 환경에따라 약 10분\~20분 정도
-    > 실행됩니다. 실행 중 Recompile 과정이 같이 진행되기 때문에 시간이
-    > 좀 걸립니다.
+     실행됩니다. 실행 중 Recompile 과정이 같이 진행되기 때문에 시간이
+     좀 걸립니다.
 
 ![](./media/image69.png)
 
@@ -1158,7 +1158,7 @@ Plugin 되는 ‘UPGR’ 데이터베이스는 ‘PDB1’으로 전환됩니다.
 > SQL> exit
 
 -   이 과정을 통해 CDB2가 재기동 되면, PDB가 자동으로 OPEN 됩니다.
-    > 그렇지 않으면 PDB가 RESTRICTED 모드로 OPEN 됩니다.
+     그렇지 않으면 PDB가 RESTRICTED 모드로 OPEN 됩니다.
 
     ![](./media/image71.png)
 
@@ -1170,9 +1170,9 @@ Plugin 되는 ‘UPGR’ 데이터베이스는 ‘PDB1’으로 전환됩니다.
 
 ![](./media/image72.png)
 
-> 아래와 같이 EZconnect 방식으로 접속할 수도 있습니다.  
-> PDB접속은 DB서비스명으로 접속해야 합니다.
->
+ 아래와 같이 EZconnect 방식으로 접속할 수도 있습니다.  
+ PDB접속은 DB서비스명으로 접속해야 합니다.
+
 > sqlplus "sys/oracle@//localhost:1521/pdb1 as sysdba"
 >
 > exit
@@ -1201,7 +1201,7 @@ TBS로 전환합니다.
 
 4\. 클라우드 혹은 클라우드 머신으로 전환(비디오 웨비나 링크) 소개
 
-<span id="_Toc74314923" class="anchor"></span>\[1\] PDB2 생성
+**<span id="_Toc74314923" class="anchor"></span>\[1\] PDB2 생성**
 
 Transportable Database 마이그레이션 대상이 될 PDB를, 19c Mutitenant DB
 환경에 먼저 생성합니다.
@@ -1246,7 +1246,7 @@ Transportable Database 마이그레이션 대상이 될 PDB를, 19c Mutitenant D
 
 -   위에서 생성한 DB link는 expdp/impdp 작업에 사용됩니다.
 
-<span id="_Toc74314924" class="anchor"></span>\[2\] FTEX DB 준비
+**<span id="_Toc74314924" class="anchor"></span>\[2\] FTEX DB 준비**
 
 Migration/Upgrade를 위한 11gR2 FTEX DB를 준비합니다.
 
@@ -1277,12 +1277,12 @@ Migration/Upgrade를 위한 11gR2 FTEX DB를 준비합니다.
 
 ![](./media/image79.png)
 
-<span id="_Toc74314925" class="anchor"></span>\[3\] FTEX를 PDB2로 전환
+**<span id="_Toc74314925" class="anchor"></span>\[3\] FTEX를 PDB2로 전환**
 
 1.  데이터파일을 새로운 타겟DB 위치로 복사
 
 -   이 실습에서는 Data Pump를 사용해서 Transportable Tablespace를
-    > 수행합니다.
+     수행합니다.
 
 > $ cp /u02/oradata/FTEX/users01.dbf /u02/oradata/CDB2/pdb2
 
@@ -1291,7 +1291,7 @@ Migration/Upgrade를 위한 11gR2 FTEX DB를 준비합니다.
 2.  타겟DB에서 Impdp 실행
 
 -   타겟DB에서 impdp를 TRANSPORTABLE=ALWAYS 및 FULL=Y, VERSION=12 옵션을
-    > 주고 실행합니다.
+     주고 실행합니다.
 
 > $ . cdb2
 >
@@ -1311,12 +1311,12 @@ Migration/Upgrade를 위한 11gR2 FTEX DB를 준비합니다.
 <!-- -->
 
 -   다음과 같은 error가 발생할 수 있는데, Advanced Replication 관련
-    > 내용으로 실습과는 상관없으므로 무시합니다.
+     내용으로 실습과는 상관없으므로 무시합니다.
 
 ![](./media/image83.png)
 
 -   Impdp 관련 옵션들은 실습 VBox의 ‘/home/oracle/IMP/ft.par’에 저장되어
-    > 있습니다.
+     있습니다.
 
 3.  FTEX DB의 소스 TBS를 read-write로 원복
 
@@ -1350,8 +1350,8 @@ Migration/Upgrade를 위한 11gR2 FTEX DB를 준비합니다.
 
 ![](./media/image87.png)
 
-<span id="_Toc74314926" class="anchor"></span>\[4\] 클라우드 혹은
-클라우드 머신으로 전환 (참고자료)
+**<span id="_Toc74314926" class="anchor"></span>\[4\] 클라우드 혹은
+클라우드 머신으로 전환 (참고자료)**
 
 본 HOL에서 진행한 Full Transportable Export/Import는 Oracle Cloud 나
 ExaCC로 전환시에도 당연히 활용 가능한 방법입니다. 관련 설명은 Oracle
@@ -1376,7 +1376,7 @@ PDB를 대상으로 업그레이드가 필요할 때가 있습니다.
 이번 실습에서는 12cR2 Multitenant DB 환경에서 사용중인 PDB를 unplug &
 plug 방법을 사용하여 19c PDB로 업그레이드 하게 됩니다.
 
-<span id="_Toc74314928" class="anchor"></span>\[1\] 실습환경 준비
+**<span id="_Toc74314928" class="anchor"></span>\[1\] 실습환경 준비**
 
 먼저 12cR2로 설치된 ‘CDB1’을 기동하여 실습을 준비합니다.
 
@@ -1405,19 +1405,19 @@ plug 방법을 사용하여 19c PDB로 업그레이드 하게 됩니다.
 > $ java -jar $OH19/rdbms/admin/preupgrade.jar -c 'pdb3' TERMINAL TEXT
 
 -   수행 결과는 터미널에서 바로 확인 할 수 있으며, 상세한 로그 내용은
-    > 아래 경로의 로그 파일을 참조하시기 바랍니다.
+     아래 경로의 로그 파일을 참조하시기 바랍니다.
 
 > /u01/app/oracle/cfgtoollogs/CDB1/preupgrade/preupgrade.log
 
 -   실습환경에서는 REQUIRED ACTION 섹션에 특별한 내용이 없으며,
-    > RECOMMAND ACTION의 내용 중 히든 파라미터 삭제는 단일 PDB를
-    > 업그레이드 하는 상황에서는 기존 CDB에 남아있는 다른 PDB의 부작용을
-    > 고려하여 꼭 필요한 상황이 아니면 수정하지 않는 것을 권장합니다.
-    > 물론 이번 실습에서도 그냥 넘어가시며 됩니다.
+     RECOMMAND ACTION의 내용 중 히든 파라미터 삭제는 단일 PDB를
+     업그레이드 하는 상황에서는 기존 CDB에 남아있는 다른 PDB의 부작용을
+     고려하여 꼭 필요한 상황이 아니면 수정하지 않는 것을 권장합니다.
+     물론 이번 실습에서도 그냥 넘어가시며 됩니다.
 
 -   그외의 (AUTOFIXUP) 헤드가 붙은 사항들은 자동으로 생성되는 fixup
-    > 스크립트에서 수행해주는 내용이므로 확인만하고 다음 단계로 넘어
-    > 가시기 바랍니다.
+     스크립트에서 수행해주는 내용이므로 확인만하고 다음 단계로 넘어
+     가시기 바랍니다.
 
 2.  (두번째 터미널에서 수행) fixup 스크립트 수행 후, PDB3 Unplug 수행
 
@@ -1445,11 +1445,11 @@ plug 방법을 사용하여 19c PDB로 업그레이드 하게 됩니다.
 > SQL> drop pluggable database PDB3 including datafiles;
 
 -   ALTER PLUGGABLE DATABASE … UNPLUG INTO … 구문을 사용할 때, 파일
-    > 확장자를 xml로 지정할 경우에는 PDB에 대한 메타데이터만 저장됩니다.
-    > 이번 실습에서와 같이 확장자를 pdb로 할 경우는 자동으로
-    > 메타데이터 + 데이터파일을 압축(ZIP)하여 하나의 파일로 생성합니다.
-    > 이 경우는 별도의 데이터파일 복사/이동 등을 필요로 하지 않으며,
-    > 확장자가 pdb인 파일만으로 PDB의 이관을 수행할 수 있습니다.
+     확장자를 xml로 지정할 경우에는 PDB에 대한 메타데이터만 저장됩니다.
+     이번 실습에서와 같이 확장자를 pdb로 할 경우는 자동으로
+     메타데이터 + 데이터파일을 압축(ZIP)하여 하나의 파일로 생성합니다.
+     이 경우는 별도의 데이터파일 복사/이동 등을 필요로 하지 않으며,
+     확장자가 pdb인 파일만으로 PDB의 이관을 수행할 수 있습니다.
 
 5.  CDB1 종료
 
@@ -1457,7 +1457,7 @@ plug 방법을 사용하여 19c PDB로 업그레이드 하게 됩니다.
 >   
 > SQL> exit
 
-<span id="_Toc74314930" class="anchor"></span>\[3\] CDB2에 PDB3 Plugin
+**<span id="_Toc74314930" class="anchor"></span>\[3\] CDB2에 PDB3 Plugin**
 
 이번 단계에서는 이전 단계에서 unplug 한 12c PDB3을 19c CDB2에 plugin
 합니다.
@@ -1485,7 +1485,7 @@ Oracle 계정을 CDB2 DB 환경으로 전환 후, CDB2에 접속
 > /
 
 -   결과가 “NO” 이면, PDB_PLUG_IN_VIOLATIONS 테이블에서 원인을
-    > 확인합니다.
+     확인합니다.
 
 > select message from pdb_plug_in_violations where type like '%ERR%' and
 > status \<\> 'RESOLVED';
@@ -1507,7 +1507,7 @@ Oracle 계정을 CDB2 DB 환경으로 전환 후, CDB2에 접속
 > release updates are installed in the PDB
 
 -   패치레벨에 대한 경고들이 있으나, 12.2.0.1와 19c는 패치레벨이 당연히
-    > 서로 다르기 때문에 관련 내용들은 무시하셔도 됩니다.
+     서로 다르기 때문에 관련 내용들은 무시하셔도 됩니다.
 
 3.  PDB3을 CDB2에 plugin
 
@@ -1518,8 +1518,8 @@ Oracle 계정을 CDB2 DB 환경으로 전환 후, CDB2에 접속
 >
 > SQL> exit
 
-<span id="_Toc74314931" class="anchor"></span>\[4\] PDB3을 19c로
-업그레이드
+**<span id="_Toc74314931" class="anchor"></span>\[4\] PDB3을 19c로
+업그레이드**
 
 19c Mutitenant 환경에 Plugin 된 PDB3의 데이터 딕셔너리를 19c로
 업그레이드 합니다.
@@ -1569,7 +1569,7 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 실습을 통해서 12c에서 19c로 DB 업그레이드가 얼마나 간단하고 빠르게
 진행될 수 있는지 확인할 수 있습니다.
 
-<span id="_Toc74314933" class="anchor"></span>\[1\] AutoUpgrade 준비
+**<span id="_Toc74314933" class="anchor"></span>\[1\] AutoUpgrade 준비**
 
 -   Oracle 계정에서 ‘DB12’ DB 환경으로 전환 및 DB 기동
 
@@ -1584,8 +1584,8 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 -   실습자의 환경에 따라 12c ‘DB12’ DB가 이미 기동되어져 있을 수
     > 있습니다.
 
-<span id="_Toc74314934" class="anchor"></span>\[2\] Config 파일 생성 및
-내용 변경
+**<span id="_Toc74314934" class="anchor"></span>\[2\] Config 파일 생성 및
+내용 변경**
 
 1.  Config 파일(샘플) 생성
 
@@ -1601,7 +1601,7 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 
 ![](./media/image89.png)
 
-<span id="_Toc74314935" class="anchor"></span>\[3\] Analyze
+**<span id="_Toc74314935" class="anchor"></span>\[3\] Analyze**
 
 -   업그레이드 환경 분석
 
@@ -1609,10 +1609,10 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 > /home/oracle/sample_config.cfg **-mode analyze**
 
 -   업그레이드 작업을 진행하기 전에 반드시 Analyze 작업을 먼저
-    > 수행하시기 바랍니다. Analyze 실행 단계에서 어떠한 오류도 발생하지
-    > 않았다면, 특별한 문제 없이 AutoUpgrade 작업을 완료할 수 있습니다.
+     수행하시기 바랍니다. Analyze 실행 단계에서 어떠한 오류도 발생하지
+     않았다면, 특별한 문제 없이 AutoUpgrade 작업을 완료할 수 있습니다.
 
-<span id="_Toc74314936" class="anchor"></span>\[4\] AutoUpgrade
+**<span id="_Toc74314936" class="anchor"></span>\[4\] AutoUpgrade**
 
 1.  Deploy mode 옵션으로 AutoUpgrade 진행
 
@@ -1632,19 +1632,19 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 <!-- -->
 
 -   실습환경에서의 전체적인 AutoUpgrade 작업은 하드웨어 사양에 따라서 약
-    > 20분에서 45분 정도 수행됩니다.
+     20분에서 45분 정도 수행됩니다.
 
 3.  최종 결과 확인
 
 ![](./media/image91.png)
 
 -   AutoUpgrade가 완료되면 위와 같은 내용이 자동 출력되고, AutoUpgrade
-    > 작업 환경은 자동 종료됩니다.
+     작업 환경은 자동 종료됩니다.
 
 4.  COMPATIBLE 파라미터 수정 및 DB 재기동
 
 -   업그레이드 작업이 완료 된 이후에 COMPATIBLE parameter 값을 아래와
-    > 같이 19c 버전으로 수정합니다.
+     같이 19c 버전으로 수정합니다.
 
 > $ sqlplus / as sysdba
 >
@@ -1665,8 +1665,8 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 
 ## Appendix 
 
-<span id="_Toc74314938" class="anchor"></span>\[1\] 19c Upgrade HOL 출처
-정보
+**<span id="_Toc74314938" class="anchor"></span>\[1\] 19c Upgrade HOL 출처
+정보**
 
 본 19c Upgrade HOL 실습자료는 Mike Dietrich의 블로그 내용을 기반으로
 수정/보완되어 만들어졌으며, 관련된 다양한 내용은
@@ -1675,8 +1675,8 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 
 ![](./media/image92.png)
 
-<span id="_Toc74314939" class="anchor"></span>\[2\] 19c Upgrade HOL
-실습환경 구축
+**<span id="_Toc74314939" class="anchor"></span>\[2\] 19c Upgrade HOL
+실습환경 구축**
 
 본 Hands-On Lab 자료를 기반으로 19c Upgrade 및 SQL 성능검증 실습을 하기
 위해서는 아래와 같은 준비사항들이 필요합니다.
@@ -1708,8 +1708,8 @@ Upgrade 및 SQL 성능검증 실습만 진행하면 됩니다.
 
 ![](./media/image93.png)
 
-<span id="_Toc74314940" class="anchor"></span>\[3\] 19c Upgrade HOL VBox
-외부접속 환경설정 방법
+**<span id="_Toc74314940" class="anchor"></span>\[3\] 19c Upgrade HOL VBox
+외부접속 환경설정 방법**
 
 HOL VBox 이미지 최초 설치시, VBox 외부와 또는, 외부 인터넷 접속이 불가한
 상태이며, 아래 그림처럼 네트웍 연결 안됨이 표시되어 있습니다. 이러한
