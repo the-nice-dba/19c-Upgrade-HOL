@@ -15,7 +15,7 @@ May 2021
 Ver 2.0
 
 ## 목차  
-[HOL 1. AutoUpgrade Ⅰ](##hol-1-autoupgradeⅰ)   
+[HOL 1. AutoUpgrade Ⅰ](#hol-1-autoupgrade-ⅰ)   
 [![Video Label](http://img.youtube.com/vi/op_xOZq70iM/0.jpg)](https://youtu.be/op_xOZq70iM)  
 [HOL 2. AWR Diff Report](#hol-2-awr-diff-report)  
 [HOL 3. SQL Perfomance Analyzer(SPA)](#hol-3-sql-perfomance-analyzerspa)  
