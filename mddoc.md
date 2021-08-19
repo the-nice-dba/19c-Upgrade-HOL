@@ -492,39 +492,39 @@ Snapshot 생성**
 
 > @?/rdbms/admin/awrddrpt.sql
 >
-> ![](./media/image25.png)
+![](./media/image25.png)
 
 2.  파라미터 없이 엔터 입력 후, num_days에는 숫자 2 입력
 
-> ![](./media/image26.png)
+![](./media/image26.png)
 
 3.  업그레이드 이전의 첫번째 Snapshot id 입력 후 엔터  
     (아래 예에서는 127을 입력했으나 실습자 환경에서는 숫자가 다를 수
     있습니다.)
 
-> ![](./media/image27.png)
+![](./media/image27.png)
 
 4.  업그레이드 이전의 마자막 snap_id 입력 후 엔터  
     (아래 예에서는 129를 입력했으나 실습자 환경에서는 숫자가 다를 수
     있습니다.)
 
-> ![](./media/image28.png)
+![](./media/image28.png)
 
 5.  num_days2 에는 숫자 2 입력
 
-> ![](./media/image29.png)
+![](./media/image29.png)
 
 6.  업그레이드 후 첫번째 snap_id 입력  
     (아래 예에서는 132을 입력했으나 실습자 환경에서는 숫자가 다를 수
     있습니다.)
 
-> ![](./media/image30.png)
+![](./media/image30.png)
 
 7.  업그레이드 후 마지막 snap_id 입력  
     (아래 예에서는 134를 입력했으나 실습자 환경에서는 숫자가 다를 수
     있습니다.)
 
-> ![](./media/image31.png)
+![](./media/image31.png)
 
 8.  리포트명을 awrdiff 로 입력 후 엔터
 
@@ -757,7 +757,8 @@ Plan Baseline을 생성하여 기존 Plan이 변경되지 않도록 작업합니
 2.  SQL ID에 ‘7m5h0wf6stq0q’를 입력하고 엔터
 
 3.  성능이 우월한 PLAN인 **107582607** 을 1ST 실행계획으로 입력  
-    ![](./media/image43.png)
+
+![](./media/image43.png)
 
 ![](./media/image44.jpeg)
 
@@ -998,9 +999,9 @@ DB인 ‘UPGR’ 11g DB를 우선 타겟 CDB와 같은 19c DB버전으로 먼저
 1. Non-CDB UPGR 준비 (앞 초기 실습단계에서 이미 19c DB로 업그레이드
 완료)
 
-2\. Compatibility 체크
+2. Compatibility 체크
 
-3\. Plugin 진행
+3. Plugin 진행
 
 **<span id="_Toc74314919" class="anchor"></span>\[1\] Non-CDB UPGR 준비**
 
@@ -1157,7 +1158,7 @@ Plugin 되는 ‘UPGR’ 데이터베이스는 ‘PDB1’으로 전환됩니다.
 -   이 과정을 통해 CDB2가 재기동 되면, PDB가 자동으로 OPEN 됩니다.
      그렇지 않으면 PDB가 RESTRICTED 모드로 OPEN 됩니다.
 
-    ![](./media/image71.png)
+![](./media/image71.png)
 
 6.  Plugin 완료된 ‘PDB1’ 접속
 
@@ -1190,13 +1191,13 @@ TBS로 전환합니다.
 
 실습 내용 및 순서는 아래와 같습니다.
 
-1\. PDB2 생성
+1. PDB2 생성
 
-2\. FTEX 준비
+2. FTEX 준비
 
-3\. FTEX를 PDB2로 전환 (Migration & Upgrade)
+3. FTEX를 PDB2로 전환 (Migration & Upgrade)
 
-4\. 클라우드 혹은 클라우드 머신으로 전환(비디오 웨비나 링크) 소개
+4. 클라우드 혹은 클라우드 머신으로 전환(비디오 웨비나 링크) 소개
 
 **<span id="_Toc74314923" class="anchor"></span>\[1\] PDB2 생성**
 
@@ -1492,7 +1493,7 @@ Oracle 계정을 CDB2 DB 환경으로 전환 후, CDB2에 접속
 > SQL> select message from pdb_plug_in_violations where type like
 > '%ERR%' and status \<\> 'RESOLVED';  
 >   
->   MESSAGE  
+> MESSAGE  
 > ---------------------------------------------------------------------  
 > PDB's version does not match CDB's version: PDB's version 12.2.0.1.0.
 > CDB's version 19.0.0.0.0.  
@@ -1579,7 +1580,7 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 > SQL> exit
 
 -   실습자의 환경에 따라 12c ‘DB12’ DB가 이미 기동되어져 있을 수
-    > 있습니다.
+     있습니다.
 
 **<span id="_Toc74314934" class="anchor"></span>\[2\] Config 파일 생성 및
 내용 변경**
@@ -1619,7 +1620,7 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 2.  AutoUpgrade 모니터링
 
 -   lsj : 이 명령어를 실행하면 각 Active 작업에 대한 Job 번호 및 개요
-    > 정보를 확인할 수 있습니다.
+     정보를 확인할 수 있습니다.
 
 ![](./media/image90.png)
 
@@ -1667,8 +1668,8 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 
 본 19c Upgrade HOL 실습자료는 Mike Dietrich의 블로그 내용을 기반으로
 수정/보완되어 만들어졌으며, 관련된 다양한 내용은
-‘https://mikedietrichde.com/database-upgrade-hands-on-lab-oracle-18c-and-19c/hol-19c-main-index-page-oracle-database-19c-hands-on-lab/’에서
-확인할 수 있습니다.
+https://mikedietrichde.com/database-upgrade-hands-on-lab-oracle-18c-and-19c/hol-19c-main-index-page-oracle-database-19c-hands-on-lab/
+에서 확인할 수 있습니다.
 
 ![](./media/image92.png)
 
@@ -1680,15 +1681,15 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 
 1.  실습용 PC 및 Oracle VirtualBox 준비  
       
-    (1) 실습을 위한 최소 PC 사양
+(1) 실습을 위한 최소 PC 사양
 
 최소 16G memory, 4 Core CPU, 100G Disk 여유 공간
 
-\(2\) 실습을 위한 VBox 사양
+(2) 실습을 위한 VBox 사양
 
 최소 8G Memory, 2 Core CPU, 64G Disk 공간
 
-\(3\) Oracle VirtualBox S/W 다운로드
+(3) Oracle VirtualBox S/W 다운로드
 
 https://www.virtualbox.org/wiki/Downloads
 
@@ -1717,25 +1718,25 @@ SSH 접속이 필요하거나 VBox에서의 인터넷 접속이 필요한 경우
 1.  네트웍 연결 상태 표시 아이콘을 클릭 후 메뉴에서 'Manage Connections
     …' 선택
 
-> ![](./media/image94.png)
+![](./media/image94.png)
 
 2.  'Wired' 탭에서 'Virbr0' 선택 후 오른쪽 메뉴 중 Edit 버튼 선택
 
-> ![](./media/image95.png)
+![](./media/image95.png)
 
 3.  나타난 편집창에서 'IPv4 Address' 탭선택
 
-> ![](./media/image96.png)
+![](./media/image96.png)
 
 4.  개인 PC 환경에 맞게 IP 설정
 
-> ![](./media/image97.png)
+![](./media/image97.png)
 
 5.  NIC 재기동
 
-> ![](./media/image98.png)
+![](./media/image98.png)
 
 6.  VBox의 네트워크의 'NAT'를 '어댑터에 브리지'로 변경  
     (HOL VBox 기동 중 변경가능, HOL용 VBox 재부팅 필요 없음)
 
-> ![](./media/image99.png)
+![](./media/image99.png)
