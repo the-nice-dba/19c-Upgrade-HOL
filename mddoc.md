@@ -117,33 +117,31 @@ DB에 생성하고, 관련된 성능 데이터를 수집합니다.
 > $ sqlplus / as sysdba
 
 3.  11g DB (UPGR) AWR Snapshot 생성 및 **생성된 Snapshot 번호 확인**
-
 ![](./media/image4.png)
 
 4.  HammerDB 기동
-
 ![](./media/image5.png)
 
 5.  TPC-C 클릭  
-    ![](./media/image6.jpeg) :
+![](./media/image6.jpeg) :
 
 6.  Driver Script 클릭  
-    ![](./media/image7.jpeg)
+![](./media/image7.jpeg)
 
 7.  Load 옵션 **더블 클릭**  
-    ![](./media/image8.jpeg)
+![](./media/image8.jpeg)
 
 8.  Driver Script 내용 확인 (에러 내용 무시)  
-    ![](./media/image9.jpeg)
+![](./media/image9.jpeg)
 
 9.  Virtual User 클릭  
-    ![](./media/image10.jpeg)
+![](./media/image10.jpeg)
 
 10. Create **더블 클릭** (생성되어 있는 3명의 가상 유저 확인)  
-    ![](./media/image11.jpeg)
+![](./media/image11.jpeg)
 
 11. Cursor Cache로부터 SQL 캡처 시작  
-    ![](./media/image12.png)
+![](./media/image12.png)
 
 -   이 SQL 스크립트는 10초 간격으로 240초 동안 자동으로 실행되며, 그
     동안 HammerDB에 의해 발생하는 모든 SQL들을 Cursor Cache로부터 직접
@@ -156,11 +154,10 @@ DB에 생성하고, 관련된 성능 데이터를 수집합니다.
 ![](./media/image13.jpeg)
 
 13. Graph / Transaction Counter 아이콘 클릭
-
 ![](./media/image14.png)
 
 14. TPC-C 부하 상태 모니터링 (부하는 약 2분\~3분 동안 지속됩니다.)  
-    ![](./media/image15.jpeg)
+![](./media/image15.jpeg)
 
 15. HammerDB 실행 중, AWR Snapshot 생성
 
@@ -184,10 +181,10 @@ DB에 생성하고, 관련된 성능 데이터를 수집합니다.
 > SQL> exit
 
 16. 부하 종료 확인  
-    ![](./media/image17.jpeg)
+![](./media/image17.jpeg)
 
 17. HammerDB 종료  
-    ![](./media/image18.jpeg)
+![](./media/image18.jpeg)
 
 18. 부하 종료 후, AWR Snapshot 생성 및 **생성된 Snapshot 번호 확인**
 
@@ -199,7 +196,7 @@ Snaphost 생성 및 **Snapshot 번호 확인**
 ![](./media/image20.png)
 
 19. 생성된 AWR로부터 SQL 수집  
-    ![](./media/image21.png)
+![](./media/image21.png)
 
 20. SQL Plus 종료
 
@@ -281,7 +278,7 @@ Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR 
 
 6.  Analyze 작업 완료 확인
 
-> ![](./media/image22.png)
+![](./media/image22.png)
 
 -   Analyze 작업이 완료되면, 위와 같은 메시지가 자동 출력되어 결과를
     확인할 수 있고, **‘UPG Job Console’은 자동 종료**됩니다.
@@ -313,7 +310,7 @@ Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR 
 
 (1)  새로운 터미널 창 오픈
 
-> ![](./media/image16.png)
+![](./media/image16.png)
 
 (2)  Preupgrade Check 내용 확인
 
@@ -351,7 +348,7 @@ Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR 
 
 11. AutoUpgrade 완료 확인
 
-> ![](./media/image23.png)
+![](./media/image23.png)
 
 -   AutoUpgrade 작업이 정상적으로 완료되면, 위와 같은 메시지가 출력되어
     Upgrade 결과를 확인할 수 있고, **‘UPG Job Console’은 자동
