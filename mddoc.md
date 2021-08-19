@@ -1,6 +1,8 @@
 19c Upgrade Hands-On Lab
+========================
 
 19c Upgrade Exercises
+=====================
 
 ![](./media/image1.png)
 
