@@ -1670,8 +1670,8 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 
 본 19c Upgrade HOL 실습자료는 Mike Dietrich의 블로그 내용을 기반으로
 수정/보완되어 만들어졌으며, 관련된 다양한 내용은
-‘https://mikedietrichde.com/database-upgrade-hands-on-lab-oracle-18c-and-19c/hol-19c-main-index-page-oracle-database-19c-hands-on-lab/’에서
-확인할 수 있습니다.
+‘https://mikedietrichde.com/database-upgrade-hands-on-lab-oracle-18c-and-19c/hol-19c-main-index-page-oracle-database-19c-hands-on-lab/’
+에서 확인할 수 있습니다.
 
 ![](./media/image92.png)
 
