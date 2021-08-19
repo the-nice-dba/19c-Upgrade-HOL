@@ -16,6 +16,7 @@ Ver 2.0
 
 ## 목차  
 [HOL 1. AutoUpgradeⅠ](##hol-1-autoupgradeⅰ)   
+[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s)  
 [HOL 2. AWR Diff Report](#hol-2-awr-diff-report)  
 [HOL 3. SQL Perfomance Analyzer(SPA)](#hol-3-sql-perfomance-analyzerspa)  
 [HOL 4. SQL Plan Management(SPM)](#hol-4-sql-plan-managementspm)  
