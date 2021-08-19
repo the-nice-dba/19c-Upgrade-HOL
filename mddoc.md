@@ -6,6 +6,12 @@
 
 ![](./media/image1.png)
 
+
+
+
+   
+   
+
 Oracle Korea
 
 Solution Engineering
@@ -15,16 +21,51 @@ May 2021
 Ver 2.0
 
 ## 목차  
-[HOL 1. AutoUpgrade Ⅰ](#hol-1-autoupgrade-ⅰ)   
-[![Video Label](http://img.youtube.com/vi/op_xOZq70iM/0.jpg)](https://youtu.be/op_xOZq70iM)  
+[HOL 1. AutoUpgrade Ⅰ](#hol-1-autoupgrade-ⅰ)  
+
+HOL 1 유튜브 링크  
+[![HOL 1  유튜브 링크](http://img.youtube.com/vi/op_xOZq70iM/0.jpg)](https://youtu.be/op_xOZq70iM)  
+
 [HOL 2. AWR Diff Report](#hol-2-awr-diff-report)  
+
+HOL 2 유튜브 링크  
+[![HOL 2  유튜브 링크](http://img.youtube.com/vi/bS8smveK9ms/0.jpg)](https://youtu.be/bS8smveK9ms)  
+
 [HOL 3. SQL Perfomance Analyzer(SPA)](#hol-3-sql-perfomance-analyzerspa)  
+
+HOL 3 유튜브 링크  
+[![HOL 3  유튜브 링크](http://img.youtube.com/vi/ie7f7rb2IqI/0.jpg)](https://youtu.be/ie7f7rb2IqI)  
+
 [HOL 4. SQL Plan Management(SPM)](#hol-4-sql-plan-managementspm)  
+
+HOL 4 유튜브 링크  
+[![HOL 4  유튜브 링크](http://img.youtube.com/vi/Uw3tLY1yb5g/0.jpg)](https://youtu.be/Uw3tLY1yb5g)  
+
 [HOL 5. SQL Tuning Advisor](#hol-5-sql-tuning-advisor)    
+
+HOL 5 유튜브 링크  
+[![HOL 5  유튜브 링크](http://img.youtube.com/vi/d4js55wKriw/0.jpg)](https://youtu.be/d4js55wKriw)  
+
 [HOL 6. Plugin UPGR into CDB2](#hol-6-plugin-upgr-into-cdb2)  
+
+HOL 6 유튜브 링크  
+[![HOL 6  유튜브 링크](http://img.youtube.com/vi/8eyZIklLhqE/0.jpg)](https://youtu.be/8eyZIklLhqE)  
+
 [HOL 7. Migrate/Upgrade FTEX to PDB2](#hol-7-migrateupgrade-ftex-to-pdb2)  
+
+HOL 7 유튜브 링크  
+[![HOL 7  유튜브 링크](http://img.youtube.com/vi/W20NYRk5Eio/0.jpg)](https://youtu.be/W20NYRk5Eio)  
+
 [HOL 8. Upgrade Multitenant DB](#hol-8-upgrade-multitenant-db)  
+
+HOL 8 유튜브 링크  
+[![HOL 8  유튜브 링크](http://img.youtube.com/vi/R7QZqRMlVY8&t=2s/0.jpg)](https://youtu.be/R7QZqRMlVY8&t=2s)  
+
 [HOL 9. AutoUpgrade Ⅱ](#hol-9-autoupgrade-ⅱ)  
+
+HOL 9 유튜브 링크  
+[![HOL 9  유튜브 링크](http://img.youtube.com/vi/VffJzNubkcQ/0.jpg)](https://youtu.be/VffJzNubkcQ)  
+
 [Appendix](#appendix)   
   
     
