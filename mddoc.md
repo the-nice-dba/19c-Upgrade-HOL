@@ -274,11 +274,6 @@ Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR 
 >
 > global.autoupg_log_dir=**/home/oracle/upg_logs**
 >
-> #
->
-> # Database number 1
->
-> #
 >
 > upg1.dbname=**UPGR**
 >
