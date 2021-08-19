@@ -224,7 +224,7 @@ Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR 
 
 2.  sample_config.cfg 파일 내용 편집
 
--   vi 편집기로 Sample 파일을 열어, 아래 **빨간색 내용대로 일부 항목을
+-   vi 편집기로 Sample 파일을 열어, 아래 **Bold된 내용대로 일부 항목을
     수정/추가**합니다.
 
 > $ **vi /home/oracle/scripts/sample_config.cfg**
