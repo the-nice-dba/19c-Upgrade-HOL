@@ -61,24 +61,7 @@ Ver 2.0
 
 ## HOL 실습 동영상 유튜브 링크
 
-HOL 1 유튜브 링크  
-[![HOL 1  유튜브 링크](http://img.youtube.com/vi/op_xOZq70iM/0.jpg)](https://youtu.be/op_xOZq70iM)   
-HOL 2 유튜브 링크  
-[![HOL 2  유튜브 링크](http://img.youtube.com/vi/bS8smveK9ms/0.jpg)](https://youtu.be/bS8smveK9ms)  
-HOL 3 유튜브 링크  
-[![HOL 3  유튜브 링크](http://img.youtube.com/vi/ie7f7rb2IqI/0.jpg)](https://youtu.be/ie7f7rb2IqI)  
-HOL 4 유튜브 링크  
-[![HOL 4  유튜브 링크](http://img.youtube.com/vi/Uw3tLY1yb5g/0.jpg)](https://youtu.be/Uw3tLY1yb5g)  
-HOL 5 유튜브 링크  
-[![HOL 5  유튜브 링크](http://img.youtube.com/vi/d4js55wKriw/0.jpg)](https://youtu.be/d4js55wKriw)  
-HOL 6 유튜브 링크  
-[![HOL 6  유튜브 링크](http://img.youtube.com/vi/8eyZIklLhqE/0.jpg)](https://youtu.be/8eyZIklLhqE)  
-HOL 7 유튜브 링크  
-[![HOL 7  유튜브 링크](http://img.youtube.com/vi/W20NYRk5Eio/0.jpg)](https://youtu.be/W20NYRk5Eio)  
-HOL 8 유튜브 링크  
-[![HOL 8  유튜브 링크](http://img.youtube.com/vi/R7QZqRMlVY8/0.jpg)](https://youtu.be/R7QZqRMlVY8)  
-HOL 9 유튜브 링크  
-[![HOL 9  유튜브 링크](http://img.youtube.com/vi/VffJzNubkcQ/0.jpg)](https://youtu.be/VffJzNubkcQ) 
+https://www.youtube.com/watch?v=op_xOZq70iM&list=PL2d5cOQOqFvGf5S00_K2KK5aKQ9HTWsvl
 
 ---
  
