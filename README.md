@@ -369,6 +369,12 @@ Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR 
 
 ---
 
+HOL 1 유튜브 링크  
+[![HOL 1  유튜브 링크](http://img.youtube.com/vi/op_xOZq70iM/0.jpg)](https://youtu.be/op_xOZq70iM)   
+
+
+---
+
 ## HOL 2. AWR Diff Report
 
 업그레이드, 패치, 파라미터 변경 등의 Database 환경에 변화가 있을 때 변경
@@ -574,6 +580,12 @@ AWR Diff 보고서의 Load Profile, Top Timed Events, Top SQL 등을 분석하�
 
 ---
 
+HOL 2 유튜브 링크  
+[![HOL 2  유튜브 링크](http://img.youtube.com/vi/bS8smveK9ms/0.jpg)](https://youtu.be/bS8smveK9ms)  
+
+
+---
+
 ## HOL 3. SQL Perfomance Analyzer(SPA)
 
 앞 단계 실습에서 AWR Diff Report로 업그레이드 전후의 전체적인 Database
@@ -717,6 +729,13 @@ Tuning Set 확인**
 
 ---
 
+
+HOL 3 유튜브 링크  
+[![HOL 3  유튜브 링크](http://img.youtube.com/vi/ie7f7rb2IqI/0.jpg)](https://youtu.be/ie7f7rb2IqI)  
+
+
+---
+
 ## HOL 4. SQL Plan Management(SPM)
 
 이전 실습에서 SPA를 이용하여 성능이 저하된 SQL을 찾았다면, 이번
@@ -835,6 +854,14 @@ DB에서 사용하던 Plan으로 고정시킵니다. 19c로의 업그레이드 �
 
 -   이런 경우 위의 5개 SQL에 대해서만 SQL PLAN BASELINE을 생성하면
      됩니다.
+
+
+---
+
+
+HOL 4 유튜브 링크  
+[![HOL 4  유튜브 링크](http://img.youtube.com/vi/Uw3tLY1yb5g/0.jpg)](https://youtu.be/Uw3tLY1yb5g)  
+
 
 ---
 
@@ -976,6 +1003,13 @@ Report 분석**
  대해서는 DBA의 추가적인 검증과 분석이 필요합니다.
 
  이상으로 SQL Tuning Advisor의 실습을 마치겠습니다.
+
+
+---
+
+HOL 5 유튜브 링크  
+[![HOL 5  유튜브 링크](http://img.youtube.com/vi/d4js55wKriw/0.jpg)](https://youtu.be/d4js55wKriw)  
+
 
 ---
 
@@ -1177,6 +1211,13 @@ Plugin 되는 ‘UPGR’ 데이터베이스는 ‘PDB1’으로 전환됩니다.
 
 ![](./media/image73.png)
 
+
+---
+
+HOL 6 유튜브 링크  
+[![HOL 6  유튜브 링크](http://img.youtube.com/vi/8eyZIklLhqE/0.jpg)](https://youtu.be/8eyZIklLhqE)  
+
+
 ---
 
 ## HOL 7. Migrate/Upgrade FTEX to PDB2
@@ -1358,6 +1399,13 @@ Cloud로 전환하는 아래의 웨비나를 참고 하시기 바랍니다.
 <https://youtu.be/IEwfhA_GuF8>
 
 ![](./media/image88.png)
+
+---
+
+
+HOL 7 유튜브 링크  
+[![HOL 7  유튜브 링크](http://img.youtube.com/vi/W20NYRk5Eio/0.jpg)](https://youtu.be/W20NYRk5Eio)  
+
 
 ---
 
@@ -1557,6 +1605,11 @@ Oracle 계정을 CDB2 DB 환경으로 전환 후, CDB2에 접속
 
 ---
 
+HOL 8 유튜브 링크  
+[![HOL 8  유튜브 링크](http://img.youtube.com/vi/R7QZqRMlVY8/0.jpg)](https://youtu.be/R7QZqRMlVY8)  
+ 
+---
+
 ## HOL 9. AutoUpgrade Ⅱ
 
 이번 실습은 최초 실습단계에서 진행했던 11gR2 AutoUpgrade와 거의 동일한
@@ -1657,6 +1710,12 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 > SQL> select instance_name, version_full, status from v$instance;
 >
 > SQL> exit
+
+---
+
+
+HOL 9 유튜브 링크  
+[![HOL 9  유튜브 링크](http://img.youtube.com/vi/VffJzNubkcQ/0.jpg)](https://youtu.be/VffJzNubkcQ) 
 
 ---
 
