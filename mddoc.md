@@ -97,7 +97,7 @@ AutoUpgrade Utility를 사용해 손쉽게 Upgrade 할 수 있는 방법을 실�
 
 ---
 
-HOL 1 유튜브 링크  
+## HOL 1 유튜브 링크  
 [![HOL 1  유튜브 링크](http://img.youtube.com/vi/op_xOZq70iM/0.jpg)](https://youtu.be/op_xOZq70iM)   
 ---
 
@@ -404,7 +404,7 @@ Oracle Report가 AWR Diff입니다.
 
 ---
 
-HOL 2 유튜브 링크  
+## HOL 2 유튜브 링크  
 [![HOL 2  유튜브 링크](http://img.youtube.com/vi/bS8smveK9ms/0.jpg)](https://youtu.be/bS8smveK9ms)  
 
 ---
@@ -616,8 +616,7 @@ Tuning Set 2개를 사용합니다.
 
 ---
 
-
-HOL 3 유튜브 링크  
+## HOL 3 유튜브 링크  
 [![HOL 3  유튜브 링크](http://img.youtube.com/vi/ie7f7rb2IqI/0.jpg)](https://youtu.be/ie7f7rb2IqI)  
 ---
 
@@ -766,7 +765,7 @@ Tuning Set 확인**
 ---
 
 
-HOL 4 유튜브 링크  
+## HOL 4 유튜브 링크  
 [![HOL 4  유튜브 링크](http://img.youtube.com/vi/Uw3tLY1yb5g/0.jpg)](https://youtu.be/Uw3tLY1yb5g)  
 
 ---
@@ -900,7 +899,7 @@ SQL Tuning Advisor 기능을 이용하여 19c에서 느려진 SQL 성능을 손�
 
 ---
 
-HOL 5 유튜브 링크  
+## HOL 5 유튜브 링크  
 [![HOL 5  유튜브 링크](http://img.youtube.com/vi/d4js55wKriw/0.jpg)](https://youtu.be/d4js55wKriw)  
 ---
 
@@ -1055,7 +1054,7 @@ DB인 ‘UPGR’ 11g DB를 우선 타겟 CDB와 같은 19c DB버전으로 먼저
 
 ---
 
-HOL 6 유튜브 링크  
+## HOL 6 유튜브 링크  
 [![HOL 6  유튜브 링크](http://img.youtube.com/vi/8eyZIklLhqE/0.jpg)](https://youtu.be/8eyZIklLhqE)  
 ---
 
@@ -1262,7 +1261,7 @@ TBS로 전환합니다.
 ---
 
 
-HOL 7 유튜브 링크  
+## HOL 7 유튜브 링크  
 [![HOL 7  유튜브 링크](http://img.youtube.com/vi/W20NYRk5Eio/0.jpg)](https://youtu.be/W20NYRk5Eio)  
 ---
 **<span id="_Toc74314923" class="anchor"></span>\[1\] PDB2 생성**
@@ -1445,7 +1444,7 @@ plug 방법을 사용하여 19c PDB로 업그레이드 하게 됩니다.
 
 ---
 
-HOL 8 유튜브 링크  
+## HOL 8 유튜브 링크  
 [![HOL 8  유튜브 링크](http://img.youtube.com/vi/R7QZqRMlVY8/0.jpg)](https://youtu.be/R7QZqRMlVY8)  
 ---
 
@@ -1647,7 +1646,7 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 ---
 
 
-HOL 9 유튜브 링크  
+## HOL 9 유튜브 링크  
 [![HOL 9  유튜브 링크](http://img.youtube.com/vi/VffJzNubkcQ/0.jpg)](https://youtu.be/VffJzNubkcQ) 
 
 ---
