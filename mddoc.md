@@ -94,10 +94,12 @@ Upgrade 작업 효율성을 증가시키고, 다수의 DB에 대한 Upgrade 작�
 AutoUpgrade Utility를 사용해 손쉽게 Upgrade 할 수 있는 방법을 실습할 수
 있습니다. 또한, 이어지는 다음 실습에서 19c로의 DB Upgrade 후 SQL 성능과
 관련한 다양한 성능비교 방법과 SQL 성능 안정화 방법을 습득할 수 있습니다.
+
 ---
 ## HOL 1 유튜브 링크  
 [![HOL 1  유튜브 링크](http://img.youtube.com/vi/op_xOZq70iM/0.jpg)](https://youtu.be/op_xOZq70iM)   
 ---
+
 **<span id="_Toc74314893" class="anchor"></span>\[1\] Application Workload
 생성** 
 
@@ -1601,10 +1603,12 @@ Oracle 계정을 CDB2 DB 환경으로 전환 후, CDB2에 접속
 AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자는 이번
 실습을 통해서 12c에서 19c로 DB 업그레이드가 얼마나 간단하고 빠르게
 진행될 수 있는지 확인할 수 있습니다.
+
 ---
 ## HOL 9 유튜브 링크  
 [![HOL 9  유튜브 링크](http://img.youtube.com/vi/VffJzNubkcQ/0.jpg)](https://youtu.be/VffJzNubkcQ) 
 ---
+
 **<span id="_Toc74314933" class="anchor"></span>\[1\] AutoUpgrade 준비**
 
 -   Oracle 계정에서 ‘DB12’ DB 환경으로 전환 및 DB 기동
