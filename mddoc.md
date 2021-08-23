@@ -95,12 +95,6 @@ AutoUpgrade Utility를 사용해 손쉽게 Upgrade 할 수 있는 방법을 실�
 있습니다. 또한, 이어지는 다음 실습에서 19c로의 DB Upgrade 후 SQL 성능과
 관련한 다양한 성능비교 방법과 SQL 성능 안정화 방법을 습득할 수 있습니다.
 
----
-
-## HOL 1 유튜브 링크  
-[![HOL 1  유튜브 링크](http://img.youtube.com/vi/op_xOZq70iM/0.jpg)](https://youtu.be/op_xOZq70iM)   
----
-
 **<span id="_Toc74314893" class="anchor"></span>\[1\] Application Workload
 생성** 
 
@@ -373,7 +367,10 @@ Oracle AutoUpgrade 유틸리티를 사용하여, 현재 VBox 상에 11g인 UPGR 
 >
 > SQL> exit
 
+---
 
+HOL 1 유튜브 링크  
+[![HOL 1  유튜브 링크](http://img.youtube.com/vi/op_xOZq70iM/0.jpg)](https://youtu.be/op_xOZq70iM)   
 
 
 ---
@@ -401,13 +398,6 @@ Oracle Report가 AWR Diff입니다.
     이용하여 AWR Diff Report 생성
 
 6.  AWR diff Report를 분석하여 업그레이드 전후 성능 비교
-
----
-
-## HOL 2 유튜브 링크  
-[![HOL 2  유튜브 링크](http://img.youtube.com/vi/bS8smveK9ms/0.jpg)](https://youtu.be/bS8smveK9ms)  
-
----
 
 **<span id="_Toc74314896" class="anchor"></span>\[1\] 실습환경 준비**
 
@@ -588,7 +578,10 @@ AWR Diff 보고서의 Load Profile, Top Timed Events, Top SQL 등을 분석하�
 이를 통해 DB 업그레이드 후 다양한 DB 성능상의 차이점을 빠르게 확인하고
 검증 할 수 있습니다.
 
+---
 
+HOL 2 유튜브 링크  
+[![HOL 2  유튜브 링크](http://img.youtube.com/vi/bS8smveK9ms/0.jpg)](https://youtu.be/bS8smveK9ms)  
 
 
 ---
@@ -613,12 +606,6 @@ Tuning Set 2개를 사용합니다.
 4.  SPA Report 분석
 
 5.  옵티마이저 파라미터를 11g로 수정하여 SPA 다시 실행
-
----
-
-## HOL 3 유튜브 링크  
-[![HOL 3  유튜브 링크](http://img.youtube.com/vi/ie7f7rb2IqI/0.jpg)](https://youtu.be/ie7f7rb2IqI)  
----
 
 **<span id="_Toc74314903" class="anchor"></span>\[1\] 실습환경 준비**
 
@@ -740,7 +727,11 @@ Tuning Set 확인**
  Upgrade 이후 악성 SQL의 발생이나 예기치 못한 SQL 성능저하 문제를 미리
  예방할 수 있습니다.
 
+---
 
+
+HOL 3 유튜브 링크  
+[![HOL 3  유튜브 링크](http://img.youtube.com/vi/ie7f7rb2IqI/0.jpg)](https://youtu.be/ie7f7rb2IqI)  
 
 
 ---
@@ -762,13 +753,6 @@ Tuning Set 확인**
 
 4.  SPA 실행 및 Report 분석
 
----
-
-
-## HOL 4 유튜브 링크  
-[![HOL 4  유튜브 링크](http://img.youtube.com/vi/Uw3tLY1yb5g/0.jpg)](https://youtu.be/Uw3tLY1yb5g)  
-
----
 **<span id="_Toc74314909" class="anchor"></span>\[1\] 실습환경 준비**
 
 19c DB 환경으로 접속하여 실습을 준비합니다.
@@ -872,7 +856,11 @@ DB에서 사용하던 Plan으로 고정시킵니다. 19c로의 업그레이드 �
      됩니다.
 
 
+---
 
+
+HOL 4 유튜브 링크  
+[![HOL 4  유튜브 링크](http://img.youtube.com/vi/Uw3tLY1yb5g/0.jpg)](https://youtu.be/Uw3tLY1yb5g)  
 
 
 ---
@@ -896,12 +884,6 @@ SQL Tuning Advisor 기능을 이용하여 19c에서 느려진 SQL 성능을 손�
 3.  성능개선 권고안 기능 실행
 
 4.  SPA를 실행 및 결과 Report 분석
-
----
-
-## HOL 5 유튜브 링크  
-[![HOL 5  유튜브 링크](http://img.youtube.com/vi/d4js55wKriw/0.jpg)](https://youtu.be/d4js55wKriw)  
----
 
 **<span id="_Toc74314914" class="anchor"></span>\[1\] 실습환경 준비**
 
@@ -1023,7 +1005,10 @@ Report 분석**
  이상으로 SQL Tuning Advisor의 실습을 마치겠습니다.
 
 
+---
 
+HOL 5 유튜브 링크  
+[![HOL 5  유튜브 링크](http://img.youtube.com/vi/d4js55wKriw/0.jpg)](https://youtu.be/d4js55wKriw)  
 
 
 ---
@@ -1051,12 +1036,6 @@ DB인 ‘UPGR’ 11g DB를 우선 타겟 CDB와 같은 19c DB버전으로 먼저
 2. Compatibility 체크
 
 3. Plugin 진행
-
----
-
-## HOL 6 유튜브 링크  
-[![HOL 6  유튜브 링크](http://img.youtube.com/vi/8eyZIklLhqE/0.jpg)](https://youtu.be/8eyZIklLhqE)  
----
 
 **<span id="_Toc74314919" class="anchor"></span>\[1\] Non-CDB UPGR 준비**
 
@@ -1233,7 +1212,10 @@ Plugin 되는 ‘UPGR’ 데이터베이스는 ‘PDB1’으로 전환됩니다.
 ![](./media/image73.png)
 
 
+---
 
+HOL 6 유튜브 링크  
+[![HOL 6  유튜브 링크](http://img.youtube.com/vi/8eyZIklLhqE/0.jpg)](https://youtu.be/8eyZIklLhqE)  
 
 
 ---
@@ -1258,12 +1240,6 @@ TBS로 전환합니다.
 
 4. 클라우드 혹은 클라우드 머신으로 전환(비디오 웨비나 링크) 소개
 
----
-
-
-## HOL 7 유튜브 링크  
-[![HOL 7  유튜브 링크](http://img.youtube.com/vi/W20NYRk5Eio/0.jpg)](https://youtu.be/W20NYRk5Eio)  
----
 **<span id="_Toc74314923" class="anchor"></span>\[1\] PDB2 생성**
 
 Transportable Database 마이그레이션 대상이 될 PDB를, 19c Mutitenant DB
@@ -1424,7 +1400,11 @@ Cloud로 전환하는 아래의 웨비나를 참고 하시기 바랍니다.
 
 ![](./media/image88.png)
 
+---
 
+
+HOL 7 유튜브 링크  
+[![HOL 7  유튜브 링크](http://img.youtube.com/vi/W20NYRk5Eio/0.jpg)](https://youtu.be/W20NYRk5Eio)  
 
 
 ---
@@ -1441,12 +1421,6 @@ PDB를 대상으로 업그레이드가 필요할 때가 있습니다.
 
 이번 실습에서는 12cR2 Multitenant DB 환경에서 사용중인 PDB를 unplug &
 plug 방법을 사용하여 19c PDB로 업그레이드 하게 됩니다.
-
----
-
-## HOL 8 유튜브 링크  
-[![HOL 8  유튜브 링크](http://img.youtube.com/vi/R7QZqRMlVY8/0.jpg)](https://youtu.be/R7QZqRMlVY8)  
----
 
 **<span id="_Toc74314928" class="anchor"></span>\[1\] 실습환경 준비**
 
@@ -1629,7 +1603,10 @@ Oracle 계정을 CDB2 DB 환경으로 전환 후, CDB2에 접속
 파일로 압축하는 방법을 통해 소규모 PDB의 업그레이드 또는 마이그레이션
 시에 편의성을 제공하고 있습니다.
 
+---
 
+HOL 8 유튜브 링크  
+[![HOL 8  유튜브 링크](http://img.youtube.com/vi/R7QZqRMlVY8/0.jpg)](https://youtu.be/R7QZqRMlVY8)  
  
 ---
 
@@ -1642,14 +1619,6 @@ Oracle 계정을 CDB2 DB 환경으로 전환 후, CDB2에 접속
 AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자는 이번
 실습을 통해서 12c에서 19c로 DB 업그레이드가 얼마나 간단하고 빠르게
 진행될 수 있는지 확인할 수 있습니다.
-
----
-
-
-## HOL 9 유튜브 링크  
-[![HOL 9  유튜브 링크](http://img.youtube.com/vi/VffJzNubkcQ/0.jpg)](https://youtu.be/VffJzNubkcQ) 
-
----
 
 **<span id="_Toc74314933" class="anchor"></span>\[1\] AutoUpgrade 준비**
 
@@ -1742,7 +1711,11 @@ AutoUpgrade 방식을 사용해 DB 업그레이드를 진행합니다. 실습자
 >
 > SQL> exit
 
+---
 
+
+HOL 9 유튜브 링크  
+[![HOL 9  유튜브 링크](http://img.youtube.com/vi/VffJzNubkcQ/0.jpg)](https://youtu.be/VffJzNubkcQ) 
 
 ---
 
